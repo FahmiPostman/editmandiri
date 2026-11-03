@@ -1,0 +1,4 @@
+Options -Indexes
+<FilesMatch "\.(sqlite|sqlite-wal|sqlite-shm|md)$|^(lib|router)\.php$">
+  Require all denied
+</FilesMatch>
